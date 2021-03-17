@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<header>DIT IS DE HEADER</header>
+<nav>
+    <ul>
+        <li>nav-link-1</li>
+        <li>nav-link-2</li>
+        <li><a href="about.html">Klik hier om naar de about pagina te gaan</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="standaard-sectie">
+        <form name="contactform" method="POST" data-netlify="true">
+            <div class="formulier">
+                <div class="invul-veld">
+                    <label class="label" name="naam">Naam:</label>
+                    <input name="naam" type="text" placeholder="Vul hier je naam in"/>
+                </div>
+                <div class="invul-veld">
+                    <label class="label" name="email">Email:</label>
+                    <input name="email" type="email" placeholder="Vul hier je email adres in"/>
+                </div>
+                <div class="invul-veld">
+                    <label class="label" name="textveld">Je vraag:</label>
+                    <textarea name="textveld" class="tekst-invul-veld" cols="35" rows="5" placeholder="Wat wil je weten?"></textarea>
+                </div>
+                <div class="invul-veld">
+                    <div class="label"></div>
+                    <input class="btn-default" type="submit" name="Verzenden"/>
+                </div>
+            </div>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>

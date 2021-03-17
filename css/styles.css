@@ -48,6 +48,10 @@ footer {
     background-color: rgba(41,41,41,0.2);
 }
 
+.standaard-sectie {
+    background-color: orange;
+}
+
 .black-border {
     border-color: black;
     border-style: solid;
@@ -86,6 +90,22 @@ footer {
     padding-left: 2%;
     padding-right: 2%;
     width: 96%;
+}
+.label {
+    width: 30%;
+}
+.invul-veld {
+    display: inline-flex;
+    width: 100%;
+    border: purple solid 2px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.btn-default {
+    background-color: azure;
+    color: black;
+    font-size: 1.6rem;
 }
 
 #green-background {
